@@ -1,44 +1,46 @@
 .navBarSection {
-    background: url('/assets/img/headerBG.png');
+    /* background: url('/assets/img/headerBG.png'); */
+    background-color: #6B5F82;
     position: sticky;
     top: 0;
     z-index: 100;
     transition: all 0.3s ease-in-out;
   }
-  .navBarSection.red {
+  /* .navBarSection.red {
     background: rgba(79, 0, 140, 1);
-  }
+  } */
   .navBarSection.red .nav-link {
     color: #FFF;
   }
   .navbar-nav .nav-link {
     padding: 15px 15px !important;
     display: inline-block;
-    color: #ff375e;
+    color: #fff;
     font-size: 13px;
     font-family: "STCRegular";
   
   }
-  .navbar-nav .nav-link.active {
+  /* .navbar-nav .nav-link.active {
     color: #4F008C !important;
-  }
+  } */
   
   .navbar-nav .nav-link:hover {
-    color: #4F008C !important;
+    color: #777 !important;
     transition: all 0.5s ease-in-out;
   }
-  .red .navbar-nav .nav-link.active {
+  /* .red .navbar-nav .nav-link.active {
     color: #ff375e !important;
   }
   
   .red .navbar-nav .nav-link:hover {
     color: #ff375e !important;
-  }
+  } */
   .logoImage {
     max-width: 100px;
-    display: none;
+    width: 100px;
+    height: max-content;
   }
-  .logoImage.color{
+  /* .logoImage.color{
     display: block;
   }
   .red .logoImage.white{
@@ -46,7 +48,7 @@
   }
   .red .logoImage.color{
     display: none;
-  }
+  } */
   
   
   .allDropDown {

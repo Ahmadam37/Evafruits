@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ShearedModule } from './sheared/sheared.module';
+import { HomeModule } from './home/home.module';
 
 
 
@@ -14,7 +15,8 @@ import { ShearedModule } from './sheared/sheared.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ShearedModule
+    ShearedModule,
+    HomeModule
     
   ],
   providers: [],
