@@ -1,0 +1,80 @@
+.navBarSection {
+    background: url('/assets/img/headerBG.png');
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    transition: all 0.3s ease-in-out;
+  }
+  .navBarSection.red {
+    background: rgba(79, 0, 140, 1);
+  }
+  .navBarSection.red .nav-link {
+    color: #FFF;
+  }
+  .navbar-nav .nav-link {
+    padding: 15px 15px !important;
+    display: inline-block;
+    color: #ff375e;
+    font-size: 13px;
+    font-family: "STCRegular";
+  
+  }
+  .navbar-nav .nav-link.active {
+    color: #4F008C !important;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #4F008C !important;
+    transition: all 0.5s ease-in-out;
+  }
+  .red .navbar-nav .nav-link.active {
+    color: #ff375e !important;
+  }
+  
+  .red .navbar-nav .nav-link:hover {
+    color: #ff375e !important;
+  }
+  .logoImage {
+    max-width: 100px;
+    display: none;
+  }
+  .logoImage.color{
+    display: block;
+  }
+  .red .logoImage.white{
+    display: block;
+  }
+  .red .logoImage.color{
+    display: none;
+  }
+  
+  
+  .allDropDown {
+    position: absolute;
+    padding: 6px;
+    margin: 0px 15px;
+    line-height: 1.2em;
+    width: 400px !important;
+    max-width: fit-content;
+  }
+  
+  .navDrop-item {
+    color: #777 !important;
+    font-size: 13px;
+    font-family: "STCRegular";
+  }
+  .red .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+  .red .navbar-toggler{
+    border: 1px solid #FFF ;
+  }
+  
+  .dropdown-item.active, .dropdown-item:active{
+    background-color: #ff375e;
+  }
+  
+  .dropdown-item.active span, .dropdown-item:active span{
+    color: #FFF !important;
+  }
+  
