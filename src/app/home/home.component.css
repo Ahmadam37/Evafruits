@@ -63,6 +63,9 @@
 }
 
 /* SECTION TOW */
+.paragraph{
+    margin-top: 200px;
+}
 .containerBox{
     display: flex;
     flex-direction: row;
@@ -72,8 +75,9 @@
 .box{
     background: url('/assets/img/PurpleBG.png');
     width: 100%;
-    height: 200px;
+    height: auto;
     background-repeat: no-repeat;
+    color: #E4E0D6;
 }
 .box .BananaBG{
     display: flex;
@@ -93,4 +97,12 @@
 .logoImage img{
     max-width: 200px;
     width: 100%;
+}
+.box .BananaKiwiBG{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -90px;
 }
