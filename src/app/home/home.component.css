@@ -6,6 +6,8 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-items: flex-end;
+    background-position-y: 200px;
+    
 }
 
 .KiwiPai img{
@@ -105,4 +107,16 @@
     justify-content: center;
     align-items: center;
     margin-bottom: -90px;
+}
+
+/*  */
+.OrderNow{
+    margin-top: 200px;
+}
+.orderNow{
+    background: url('/assets/img/BG.png');
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+
 }
