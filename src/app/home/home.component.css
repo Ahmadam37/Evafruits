@@ -8,7 +8,7 @@
     align-items: flex-end;
     background-position-y: bottom;
     overflow: hidden;
-    
+    background-size: 100% auto;
 }
 .Jar{
     position: relative;
@@ -156,28 +156,82 @@
 
 @media screen and (min-width: 340px) and (max-width: 991px) {
     .mainContainer{
-        background-position-y: 300px !important;
+        background-position-y: 450px !important;
+    }
+    .fruitsImages{
+        margin-top: 50px;
     }
     .Jar .Painable {
-        max-width: 100px !important;
-        height: 100px !important;
-        width: 100% !important;
+        max-width: 60px ;
+        height: 60px ;
+        width: 100% ;
     }
     .Jar .Kiwi {
         margin-top: 50px;
-        max-width: 100px;
-        height: 100px;
+        max-width: 60px;
+        height: 60px;
         width: 100%;
     }
     .Jar .Banana{
-        max-width: 100px;
-        height: 100px;
+        max-width: 60px;
+        height: 60px;
         width: 100%;
     }
     .Jar .bigJar{
         max-width: 400px;
         width: 100%;
     }
+}
+
+@media (max-width: 767px) {
+    .Jar .Painable {
+        max-width: 70px;
+        height: 70px;
+        width: 100%;
+    }
+    .Jar .Kiwi {
+        margin-top: 50px;
+        max-width: 70px;
+        height: 70px;
+        width: 100%;
+    }
+    .Jar .Banana{
+        max-width: 50px;
+        height: 50px;
+        width: 100%;
+    }
+    .Jar .bigJar{
+        max-width: 300px;
+        width: 100%;
+    }
+    .bigKiwi{
+        max-width: 170px;
+        width: 100%;
+        height:fit-content;
+        z-index: -1;
+    }
+    .bigPainable{
+        max-width: 150px;
+        width: 100%;
+        height:fit-content;
+        z-index: -1;
+    }
+}
+@media (max-width: 414px) {
+   
+    .images {
+       width: 80px;
+    }
+    .images .Painable{
+        display: none;
+    }
+    .jarBig{
+        width: 250px;
+    }
+  .bigKiwiPai{
+    width: 70px;
+  }
+  
 }
 /* SECTION TOW */
 .AboutUS{
