@@ -6,8 +6,17 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-items: flex-end;
-    background-position-y: 200px;
+    background-position-y: bottom;
+    overflow: hidden;
     
+}
+.Jar{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
 }
 
 .KiwiPai img{
@@ -31,25 +40,33 @@
     display: flex;
     justify-content: end !important;
     background: rgb(2,0,36);
-    background: radial-gradient(circle, #E4E0D6 0%, rgba(255,255,255,1) 45%);
+    background: radial-gradient(circle, #E4E0D6 0%, rgba(255,255,255,1) 60%);
     z-index: -1;
 }
-.Jar .Painable {
-    max-width: 90px;
-    height: 90px;
-    width: 100%;
-    margin-left: 100px;
-}
+
 .images{
     position: relative;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: center;
+    align-items:center;
+}
+.bigKiwiPai{
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.Jar .Painable {
+    max-width: 90px;
+    height: 90px;
+    width: 100%;
 }
 .Jar .Kiwi {
-    margin-top: 50px;
+    margin-top: 100px;
     max-width: 90px;
     height: 90px;
     width: 100%;
@@ -63,7 +80,105 @@
     max-width: 450px;
     width: 100%;
 }
+.bigKiwi{
+    max-width: 130px;
+    width: 100%;
+    height:fit-content;
+    z-index: -1;
+}
+.bigPainable{
+    max-width: 110px;
+    width: 100%;
+    height:fit-content;
+    z-index: -1;
+}
 
+
+@media (max-width: 1399px) {
+   
+    .Jar .Painable {
+        max-width: 70px;
+        height: 70px;
+        width: 100%;
+    }
+    .Jar .Kiwi {
+        margin-top: 50px;
+        max-width: 70px;
+        height: 70px;
+        width: 100%;
+    }
+    .Jar .Banana{
+        max-width: 70px;
+        height: 70px;
+        width: 100%;
+    }
+    .Jar .bigJar{
+        max-width: 300px;
+        width: 100%;
+    }
+    .bigKiwi{
+        max-width: 100px;
+        width: 100%;
+        height:fit-content;
+        z-index: -1;
+    }
+    .bigPainable{
+        max-width: 90px;
+        width: 100%;
+        height:fit-content;
+        z-index: -1;
+    }
+}
+@media (max-width: 1199px) {
+   
+    .Jar .Painable {
+        max-width: 65px;
+        height: 65px;
+        width: 100%;
+    }
+    .Jar .Kiwi {
+        margin-top: 50px;
+        max-width: 65px;
+        height: 65px;
+        width: 100%;
+    }
+    .Jar .Banana{
+        max-width: 65px;
+        height: 65px;
+        width: 100%;
+    }
+    .Jar .bigJar{
+        max-width: 300px;
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 340px) and (max-width: 991px) {
+    .mainContainer{
+        background-position-y: 300px !important;
+    }
+    .Jar .Painable {
+        max-width: 100px !important;
+        height: 100px !important;
+        width: 100% !important;
+    }
+    .Jar .Kiwi {
+        margin-top: 50px;
+        max-width: 100px;
+        height: 100px;
+        width: 100%;
+    }
+    .Jar .Banana{
+        max-width: 100px;
+        height: 100px;
+        width: 100%;
+    }
+    .Jar .bigJar{
+        max-width: 400px;
+        width: 100%;
+    }
+}
 /* SECTION TOW */
 .AboutUS{
     margin-top: 200px;
