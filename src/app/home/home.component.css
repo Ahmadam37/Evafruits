@@ -217,6 +217,19 @@
         z-index: -1;
     }
 }
+
+@media (max-width: 575px) {
+    .images {
+        width: 70px;
+     }
+    
+     .jarBig{
+         width: 250px;
+     }
+   .bigKiwiPai{
+     width: 70px;
+   }
+}
 @media (max-width: 414px) {
    
     .images {
@@ -233,6 +246,61 @@
   }
   
 }
+@media (max-width: 399px) {
+   
+    .images {
+       width: 80px;
+    }
+    .images .Painable{
+        display: none;
+    }
+    .Jar .Kiwi {
+        margin-top: 50px;
+        max-width: 50px;
+        height: 50px;
+        width: 100%;
+    }
+    .Jar .Banana{
+        max-width: 50px;
+        height: 50px;
+        width: 100%;
+    }
+    .jarBig{
+        width: 200px;
+    }
+  .bigKiwiPai{
+    width: 60px;
+  }
+  
+}
+@media (max-width: 339px) {
+   
+    .images {
+       width: 80px;
+    }
+    .images .Painable{
+        display: none;
+    }
+    .Jar .Kiwi {
+        margin-top: 50px;
+        max-width: 50px;
+        height: 50px;
+        width: 100%;
+    }
+    .Jar .Banana{
+        max-width: 50px;
+        height: 50px;
+        width: 100%;
+    }
+    .jarBig{
+        width: 200px;
+    }
+  .bigKiwiPai{
+    width: 50px;
+  }
+  
+}
+
 /* SECTION TOW */
 .AboutUS{
     margin-top: 200px;
