@@ -413,6 +413,8 @@
     width: 100%;
     height: auto;
     background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
 }
 .orderNow h4{
     color: #6B5F82;
@@ -436,4 +438,16 @@
 .orderNowBtn .btn{
     background: #6B5F82;
     color: #fff;
+}
+
+/* evaLogo */
+.evaLogoKiwi{
+    margin-top: -75px;
+    z-index: 1;
+}
+.evaLogoKiwi .PaiKiwiImage{
+    width: 100%;
+}
+.evaLogoKiwi .evaLogoKiwiBG{
+    width: 100%;
 }
