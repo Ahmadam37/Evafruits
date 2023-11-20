@@ -451,3 +451,11 @@
 .evaLogoKiwi .evaLogoKiwiBG{
     width: 100%;
 }
+
+
+/* OUR PRODUCT SECTION */
+
+.ourProduct h1{
+    color: #6B5F82;
+    font-weight: bold;
+}
