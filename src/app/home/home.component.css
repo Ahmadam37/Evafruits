@@ -300,7 +300,63 @@
   }
   
 }
+.animatePainable{
+    animation-name: painableAnimate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    transition: all .3s;
+}
+.animateBanana{
+    animation-name: imagesAnimatie;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    transition: all .3s;
+}
+.animateKiwi{
+    animation-name: kiwiAnimate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    transition: all .3s;
+}
+@keyframes painableAnimate {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+@keyframes kiwiAnimate {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-30px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+@keyframes imagesAnimatie {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(20px);
 
+    }
+    100%{
+        transform: translateY(0px);
+    }
+
+    
+}
 /* SECTION TOW */
 .AboutUS{
     margin-top: 200px;
