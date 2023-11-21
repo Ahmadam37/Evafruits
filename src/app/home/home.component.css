@@ -443,7 +443,6 @@
 /* evaLogo */
 .evaLogoKiwi{
     margin-top: -75px;
-    z-index: 1;
 }
 .evaLogoKiwi .PaiKiwiImage{
     width: 100%;
@@ -452,6 +451,11 @@
     width: 100%;
 }
 
+@media (max-width: 1024px) {
+    .evaLogoKiwi{
+        margin-top: -40px;
+    }
+}
 
 /* OUR PRODUCT SECTION */
 
@@ -459,3 +463,95 @@
     color: #6B5F82;
     font-weight: bold;
 }
+
+.cards{
+    color: #6B5F82;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-around;
+  }
+  .cardd {
+    background-color: #6B5F82;
+    border-radius: 25px;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    max-width: 250px;
+    /* Change */
+    margin-top: 140px;
+    display: flex;
+    transition: all 0.3s ease-in-out;
+  }
+  .cardd.active,
+  .cardd:hover {
+    max-width: 30%;
+  }
+  .cardd:hover .content,
+  .cardd.active .content {
+    width: 80%;
+    padding: 20px;
+    font-size: 15px;
+    opacity: 1;
+  }
+  .cardd:hover .content button,
+  .cardd.active .content button {
+    width: auto;
+    font-size: 15px;
+  }
+  .cardd:hover .content input,
+  .cardd.active .content input {
+    width: auto;
+  }
+  .image {
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+  }
+  .content {
+    width: 0;
+    padding: 0;
+    background-color: #E4E0D6;
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+    font-size: 0;
+    opacity: 0;
+  }
+  .image img {
+    max-width: 150px;
+    width: 100%;
+    height: 100%;
+    margin-top: -100px;
+    object-fit: contain;
+  }
+  .imageSmallJar{
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+  }
+  .imageSmallJar img{
+    max-width: 130px !important;
+    width: 100% !important;
+    height: 100% !important;
+    margin-top: -100px;
+    object-fit: contain;
+  }
+  .content .action {
+    display: flex;
+  }
+  .content .btnOrder {
+    width: 0;
+    font-size: 0;
+  }
+  .content input {
+    width: 0;
+  }
+  .icon img{
+    max-width: 10px;
+    width: 100%;
+    height: auto;
+  }
