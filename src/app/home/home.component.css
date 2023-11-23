@@ -618,7 +618,7 @@
     margin-top: 100px;
   }
  .descFeatures img{
-    max-width: 80px;
+    max-width: 70px;
     width: 100%;
  }
  .descFTwo img{
@@ -632,11 +632,10 @@
     align-items: center;
  }
  .strawberryImage img{
-    max-width: 1000px;
     width: 100%;
  }
  .descFOne{
-    margin-left: -120px;
+    margin-left: -105px;
  }
  .descFTwo{
     padding-top: 50px;
@@ -644,7 +643,7 @@
  }
  .descFThree{
     padding-top: 50px;
-    margin-left: -120px;
+    margin-left: -105px;
  }
  .allDesc p{
     font-size: 20px;
