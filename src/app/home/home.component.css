@@ -597,6 +597,7 @@
     margin-top: 200px;
     background: url("/assets/img/Bananas.png");
     background-repeat: no-repeat;
+
   }
 
   .Features h1{
@@ -737,14 +738,26 @@
         font-weight: lighter;
      }
      .descFOne{
-        margin-left: -75px;
+        margin-left: -60px;
      }
      .descFTwo{
         padding-top: 20px;
-        margin-left: -50px;
+        margin-left: -30px;
      }
      .descFThree{
         padding-top: 20px;
-        margin-left: -75px;
+        margin-left: -60px;
+     }
+     .ourFeatures{
+        background-size: 30%;
+    
+      }
+      .descFeatures img{
+        max-width: 60px;
+        width: 100%;
+     }
+     .descFTwo img{
+        max-width: 40px;
+        width: 100%;
      }
  }
