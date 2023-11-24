@@ -782,6 +782,14 @@
     border-radius: 90px;
     background-color: #e9e7e2;
  }
+ .timeDe{
+    background: url("/assets/img/Date.png");
+    background-repeat: no-repeat;
+    background-position-x: 99%;
+    background-position-y: center;
+    background-size: 30px;
+
+ }
 .myFormControlOne{
     position: relative;
     display: flex;
@@ -808,4 +816,22 @@
     color: #E4E0D6;
     font-weight: bold;
     background-color: #6B5F82;
+ }
+
+ /* suggestionForm */
+
+ .suggestionForm{
+    margin-top: -200px;
+    width: 100%;
+ }
+ .suggFormControl{
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 50% !important;
+    border: 2px solid #6B5F82;
+    border-radius: 90px;
+    background-color: #fff;
  }
