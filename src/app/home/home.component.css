@@ -760,7 +760,10 @@
         width: 100%;
      }
  }
-
+/*  */
+.plateFruits{
+    margin-top: -100px;
+}
  /* FORM SECTION */
  .Orderform{
     margin-top: 200px;
@@ -770,6 +773,7 @@
  .HeadForm{
     color: #6B5F82;
     font-weight: bold;
+    font-size: 20px;
  } 
  .myFormControl{
     position: relative;
@@ -821,8 +825,12 @@
  /* suggestionForm */
 
  .suggestionForm{
-    margin-top: -200px;
+    margin-top: -150px;
     width: 100%;
+ }
+ .decsHeadForm{
+    color: #6B5F82;
+    font-weight: lighter;
  }
  .suggFormControl{
     position: relative;
