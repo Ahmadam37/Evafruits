@@ -1,5 +1,5 @@
 .mainContainer{
-    background: url('assets/img/EvaFruitsLogoBG.png');
+    background: url('Evafruits/assets/img/EvaFruitsLogoBG.png');
     height:auto;
     background-repeat: no-repeat;
     display: flex;
@@ -793,7 +793,7 @@
     background-color: #e9e7e2;
  }
  .timeDe{
-    background: url("assets/img/Date.png");
+    background: url("Evafruits/assets/img/Date.png");
     background-repeat: no-repeat;
     background-position-x: 99%;
     background-position-y: center;
