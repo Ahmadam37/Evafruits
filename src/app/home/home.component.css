@@ -375,6 +375,7 @@
     height: auto;
     background-repeat: no-repeat;
     color: #E4E0D6;
+    background-color: #6B5F82;
 }
 .box .BananaBG{
     display: flex;
@@ -415,6 +416,7 @@
     background-repeat: no-repeat;
     position: relative;
     z-index: 1;
+    background-color: #E4E0D6;
 }
 .orderNow h4{
     color: #6B5F82;
