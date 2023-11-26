@@ -804,6 +804,7 @@
     border: 2px solid #6B5F82;
     border-radius: 90px;
     background-color: #e9e7e2;
+    margin: 1px;
 }
 ::placeholder {
     color: #6B5F82;
@@ -815,6 +816,8 @@
   }
 .btnSubmit{
     margin-bottom: -60px;
+    z-index: 1;
+    position: relative;
 }
  .submitBtn{
     color: #E4E0D6;
