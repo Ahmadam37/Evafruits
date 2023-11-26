@@ -1,5 +1,5 @@
 .mainContainer{
-    background: url('Evafruits/assets/img/EvaFruitsLogoBG.png');
+    background: url('../assets/img/EvaFruitsLogoBG.png');
     height:auto;
     background-repeat: no-repeat;
     display: flex;
@@ -370,7 +370,7 @@
     justify-content: center;
 }
 .box{
-    background: url('/assets/img/PurpleBG.png');
+    background: url('../assets/img/PurpleBG.png');
     width: 100%;
     height: auto;
     background-repeat: no-repeat;
@@ -409,7 +409,7 @@
     margin-top: 200px;
 }
 .orderNow{
-    background: url('/assets/img/BG.png');
+    background: url('../assets/img/BG.png');
     width: 100%;
     height: auto;
     background-repeat: no-repeat;
@@ -595,7 +595,7 @@
 
   .ourFeatures{
     margin-top: 200px;
-    background: url("/assets/img/Bananas.png");
+    background: url("../assets/img/Bananas.png");
     background-repeat: no-repeat;
 
   }
@@ -793,7 +793,7 @@
     background-color: #e9e7e2;
  }
  .timeDe{
-    background: url("Evafruits/assets/img/Date.png");
+    background: url("../assets/img/Date.png");
     background-repeat: no-repeat;
     background-position-x: 99%;
     background-position-y: center;
